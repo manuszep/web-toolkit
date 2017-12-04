@@ -35,3 +35,21 @@ ul {
 .lead {
   @extend .typo-story-text;
 }
+
+@include media-breakpoint-down(sm) {
+  h1, .h1 {
+    font-size: 48px;
+}
+
+  h2, .h2 {
+    font-size: 36px;
+  }
+
+  h3, .h3 {
+    font-size: 28px;
+  }
+
+  h4, .h4 {
+    font-size: 24px;
+  }
+}
